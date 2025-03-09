@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+      <!-- Favicons -->
+    <link href="Assets/l.png" rel="icon">
+    <link href="Assets/m.png" rel="apple-touch-icon">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><a href="https://tagorej.github.io/web/">Tagore J</a>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Education</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#projects">Projects</a></li>
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Tagore J
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#research" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./Assets/IMG_0990-modified.png" alt="Tagore J profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1"></p>
+        <h1 class="title">Tagore J
+
+        </h1>
+        
+        <p class="section__text__p2">MBA Finance & Analytics</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./Assets/Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="window.open('./wip.html', '_blank')">
+            Read my Blog
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./Assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/tagorej'"
+          />
+          <img
+            src="./Assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/tagorej'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-section__pic-container">
+          <img
+            src="./Assets/IMG_8165-modified.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+
+          <div class="text-container">
+            <style>
+              body {
+                  font-family: Arial, sans-serif;
+                  line-height: 1.6;
+                  margin: 20px;
+              }
+              .highlight {
+                  color: #334
+                  font-weight: bold;
+              }
+              .emoji {
+                  font-size: 1.2em;
+              }
+              h1 {
+                  color: #333;
+              }
+          </style>
+
+
+
+
+
+
+
+
+            <body>
+              <h1>Hi, I’m <span class="highlight">Tagore J.</span> 👋</h1>
+              <p>
+                  I’m currently pursuing my <span class="highlight">MBA</span> 🎓 with a focus on 
+                  <span class="highlight">financial analysis</span>, <span class="highlight">corporate governance</span>, 
+                  and <span class="highlight">sustainable business development</span> 🌱. I have hands-on experience in developing impactful 
+                  projects like <span class="highlight">‘Green Delight’</span> 🍃 and <span class="highlight">‘MyCity’</span> 🏙️, 
+                  blending <span class="highlight">innovation</span> and <span class="highlight">community-building</span>.
+              </p>
+              <p>
+                  As a <span class="highlight">Finance and Strategy enthusiast</span> 📊, I specialize in <span class="highlight">budgeting</span> 💵, 
+                  <span class="highlight">strategic planning</span> 📘, and leveraging tools like <span class="highlight">Excel</span>, 
+                  <span class="highlight">Python</span>, and <span class="highlight">SQL</span> for <span class="highlight">data-driven decision-making</span> 💡. 
+                  My recent work includes <span class="highlight">hypothesis testing</span>, <span class="highlight">marketing research</span>, 
+                  and crafting <span class="highlight">business models</span> to address real-world challenges effectively.
+              </p>
+              <p><br>
+
+                  Beyond academics and professional endeavors, I’m passionate about exploring cultures 🌍, learning new languages 🈵, 
+                  and expressing creativity through <span class="highlight">music</span> 🎶 and <span class="highlight">storytelling</span> 📖.
+              </p>
+              <p>
+                  <strong>Let me know how I can add value to your team! 😊</strong>
+              </p>
+          </body>
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+          src="./Assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#experience'"
+        />
+
+    </section>
+    <section id = "experience">
+      <p class="section__text__p1"></p>
+      <h1 class="title">Education and Certifications</h1>
+      <div class="about-details-container">
+        <div class="about-experience-containers">
+          <div class="details-container">
+            <img
+              src="./Assets/education.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3 class="education-title">Education</h3>
+            <p>MBA Finance | Sri Sathya Sai Institute of Higher Learning (Pursuing...)  </p> <br>
+            <p>Bachelors of Commerce (Hons.) | Sri Sathya Sai Institute of Higher Learning</p> <br>
+            <p>Commerce Accountancy Economics (CAE) | Sri Sathya Sai Higher Secondary School </p>
+          </div>
+          <div class="details-container">
+            <img
+              src="./Assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3 class="education-title">Certifications</h3>
+            <p> White Belt Certification | Operations</p> <br>
+            <p>AI with Excel | Forage </p> <br>
+            <p>Prompt Engineering | Be10X </p>  <br>
+            <p>Taxation | PWC (Pursuing...)</p>
+
+          </div>
+
+          <div class="details-container">
+            <img
+              src="./Assets/work.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3 class="education-title">Work Experience</h3>
+            <p> Business Development and Research Specialist Intern | Younity.in</p> <br>
+            <p>Product Development Intern | Avatar Vaibhavam Project </p> <br>
+            <p>2024 Aspire Leaders Program | Aspire Institute </p>  <br>
+            
+
+        </div>
+
+      </div>
+      <img
+      src="./Assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='#research'"
+    />
+    </section>
+    <section id="research">
+      <p class="section__text__p1"></p>
+      <h1 class="title">Research Work</h1>
+      <div class="projects-scroll-container">
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Tesco.jpeg" alt="research-1" class="project-img">
+                <h2 class="experience-sub-title project-title">Comprehensive Finance Report On HUL </h2>
+                <small class="experience-description">Financial Analysis | Equity Valuation | Financial Modelling</small>
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1UA2Hn4TnSZDKznlreEcBcYl1oogVSa1I/view?usp=sharing'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Inflation.jpeg" alt="research-2" class="project-img">
+                <h2 class="experience-sub-title project-title">Environmental Audit of Campus</h2>
+                <small class="experience-description">Auditing | Greenary Assessement | Reporting</small>
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/11v-oO8AshjAEczWOM-acWPSLk2QxdnGu/view?usp=sharing'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Food Ind.jpeg" alt="research-3" class="project-img">
+                <h2 class="experience-sub-title project-title">BookReview of Cultural Intelligence</h2>
+                <small class="experience-description">Cultural Intelligence | Mental programming </small>
+
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/document/d/1-frAda_LzXWorJHoPJ_pij_KfVsyRvp0/edit?usp=sharing&ouid=109233398947319428302&rtpof=true&sd=true'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Greggs.jpeg" alt="research-4" class="project-img">
+                <h2 class="experience-sub-title project-title">Research on KitKat Brand</h2>
+                <small class="experience-description">Brand Research | Marketing | Packaging</small>
+
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1bO1Ho1qWYORF0KDYYqul-qP2_ruYCk2V/view?usp=sharing'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Greggs 2.jpeg" alt="research-5" class="project-img">
+                <h2 class="experience-sub-title project-title">Product Development Simulation in WaterSoft</h2>
+                <small class="experience-description">Product Strategy | Market Research | Demand Forcasting</small>
+
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/14CSNdf6jgDFvM6Nqc4_vnU-wutq0NSx_/view?usp=sharing'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Female Dir.jpeg" alt="research-6" class="project-img">
+                <h2 class="experience-sub-title project-title">Ecommerce Startup Simulation - MyCity </h2>
+                <small class="experience-description">Startup Development | Technology | Content Development </small>
+
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1gdgG7l8dHlSP0ebIDD7xYfuX0Pwb6Xv1/view?usp=sharing'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+
+      </div>
+      <button id="next-button"><img src="./Assets/next.png" alt="Next" class="button-img"></button>
+      <button id="prev-button"><img src="./Assets/prev.png" alt="Prev" class="prev-button-img">  </button>
+
+
+      <img
+      src="./Assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse my recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-scroll-container-2">
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="Assets/Equity-Assistant.jpeg" alt="project-1" class="project-img">
+                <h2 class="experience-sub-title project-title">Loan Amortization App</h2>
+                <small class="experience-description">Python | Flask | Pdf Generation</small>
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://loan-amortization-app.onrender.com/'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Credit risk checker app.jpeg" alt="project-10" class="project-img">
+                <h2 class="experience-sub-title project-title">CGHS Hospital Coverage Analysis in India</h2>
+                <small class="experience-description">Data Analysis | Mapping | Data Prediction</small>
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/TagoreJ/CGHS_hospital_in_india'">
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Dis Cover Page.jpeg" alt="project-1" class="project-img">
+                <h2 class="experience-sub-title project-title">Python Web Scraper Txt Generation  </h2>
+                <small class="experience-description">Web Scraping | Selenium | HTML </small>
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/TagoreJ/web-scraper-txt'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Moodys AI.jpeg" alt="project-2" class="project-img">
+                <h2 class="experience-sub-title project-title">BRN CashLess Application</h2>
+                <small class="experience-description">Web Development | Vercel | Web Hosting</small>
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://clnext.vercel.app/login?callbackUrl=https%3A%2F%2Fclnext.vercel.app%2F'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/web.jpeg" alt="project-3" class="project-img">
+                <h2 class="experience-sub-title project-title">Teachers Thanks Giving </h2>
+                <small class="experience-description">HTML & CSS | Biolink </small>
+
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://linktr.ee/mahendras2k24'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/automated piano tiles.jpeg" alt="project-5" class="project-img">
+                <h2 class="experience-sub-title project-title">TinyLlama LLM Local Hosting</h2>
+                <small class="experience-description">LLM | OpenAi | Gen Ai</small>
+
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://ollama.com/library/tinyllama:1.1b'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Pokemon classifier.jpeg" alt="project-6" class="project-img">
+                <h2 class="experience-sub-title project-title">HR DashBoard</h2>
+                <small class="experience-description">Data Analysis | Data Visualisation</small>
+
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://app.powerbi.com/links/DC1DZUYFFF?ctid=f4278297-6386-40e6-8181-394cb8d7ffb6&pbi_source=linkShare'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./Assets/Image chatbot folder.png" alt="project-7" class="project-img">
+                <h2 class="experience-sub-title project-title">Finance DashBoard in R </h2>
+                <small class="experience-description">R | Graphical Presentation | Budgeting</small>
+                <div class="button-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://tagorej.shinyapps.io/Finance_DashBoard/'">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <button id="next-button-2"><img src="./Assets/next.png" alt="Next" class="button-img"></button>
+      <button id="prev-button-2"><img src="./Assets/prev.png" alt="Prev" class="prev-button-img">  </button>
+
+
+      <img
+      src="./Assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+
+    </section>
+
+    
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+
+      <div>
+        <iframe style="border:0; width: 100%; height: 270px;" src=  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15549.679230677068!2d77.75664104864343!3d13.008916970687993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0e3cec099a87%3A0x2170f9333d416997!2sSri%20Sathya%20Sai%20Institute%20of%20Higher%20Learning!5e0!3m2!1sen!2sin!4v1676011777179!5m2!1sen!2sin"  frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./Assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:tagore.ssshil@gmail.com">My Email</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./Assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/tagorej">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img
+                src="./Assets/455705.png"
+                alt="Phone icon"
+                class="icon contact-icon email-icon"
+            />
+            <p><a href="tel:+91 6303561878">Mobile</a></p>
+            </div>
+    </div>
+    
+        </div>
+    
+      
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Tagore J. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="Assets/vendor/typed.js/typed.min.js"></script>
+  </body>
+</html>
